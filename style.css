@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    padding:8.5rem 3.9rem 7.8rem ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+}
+header span{
+    font-weight: 200;
+    height: 36px;
+    font-size: 2.4rem;
+    letter-spacing: 0.017rem;
+    color:#4d4f62 ;
+}
+header h1{
+    margin-top: 0.1rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.017rem;
+    color: #4d4f62;
+}
+header p{
+    font-size: 1.5rem;
+    opacity: 0.5;
+    line-height: 1.67;
+    letter-spacing: 0.01rem;
+    color: #4d4f62;
+    margin-top: 1.6rem;
+    padding-bottom: 7.6rem;
+}
+.supervisor{
+    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4rem solid aqua;
+    border-radius: 0.8rem
+}
+.supervisor h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4d4f62;
+    
+}
+.supervisor img{
+align-self: flex-end;
+margin-top: 4.3rem;
+
+}
+.supervisor p{
+    opacity: 0.5;
+    font-size: 1.3rem;
+    line-height: 1.77;
+  letter-spacing: 0.009rem;
+  color: #4d4f62;
+}
+.Team-Builder{
+    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4rem  solid #ea5454 ;
+    border-radius: 0.8rem;
+}
+.Team-Builder h2{
+    font-size: 2rem;
+  font-weight: 600;
+  color: #4d4f62;
+  
+}
+.Team-Builder p{
+    opacity: 0.5;
+    font-size: 1.3rem;
+    line-height: 1.77;
+  letter-spacing: 0.009rem;
+  color: #4d4f62;
+}
+
+.Team-Builder img{
+    align-self: flex-end;
+    margin-top: 4.3rem;
+    
+ }
+ .Karma{
+    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4rem  solid #fcae4a;
+    border-radius: 0.8rem;
+ }
+ .Karma h2{
+    font-size: 2rem;
+  font-weight: 600;
+  color: #4d4f62;
+  
+}
+.Team-Builder p{
+    opacity: 0.5;
+    font-size: 1.3rem;
+    line-height: 1.77;
+  letter-spacing: 0.009rem;
+  color: #4d4f62;
+}
+.Karma img{
+    align-self: flex-end;
+    margin-top: 4.3rem;
+    
+ }
+ .Calculator {
+    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4rem  solid #549ef2;
+    border-radius: 0.8rem;
+ }
+ .Calculator h2{
+    font-size: 2rem;
+  font-weight: 600;
+  color: #4d4f62;
+  
+}
+.Calculator img{
+    align-self: flex-end;
+    margin-top: 4.3rem;
+    
+ }
+ .Calculator p{
+    opacity: 0.5;
+    font-size: 1.3rem;
+    line-height: 1.77;
+  letter-spacing: 0.009rem;
+  color: #4d4f62;
+}
+@media only screen and (min-width: 1440px){
+main{
+    display: grid;
+    gap: 3rem;
+    grid-template-rows:repeat(4,16.75rem);
+    grid-template-columns:repeat(3,35rem);
+}
+.supervisor{
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    
+}
+
+}
+    
