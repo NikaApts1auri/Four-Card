@@ -26,14 +26,14 @@ main{
 }
 header span{
     font-weight: 200;
-    height: 36px;
-    font-size: 2.4rem;
+    height: 2.4rem;
+    font-size: 3.6rem;
     letter-spacing: 0.017rem;
     color:#4d4f62 ;
 }
 header h1{
     margin-top: 0.1rem;
-    font-size: 2.4rem;
+    font-size: 3.6rem;
     font-weight: 600;
     letter-spacing: 0.017rem;
     color: #4d4f62;
@@ -152,16 +152,62 @@ margin-top: 4.3rem;
   letter-spacing: 0.009rem;
   color: #4d4f62;
 }
-@media only screen and (min-width: 1440px){
-main{
-    display: grid;
+@media only screen and (min-width: 90rem ){
+    body{
+        display: flex;
+        padding: 8rem 16.5rem;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    main div{
+        
+        /* height: 25rem; */
+        gap: 3rem;
+    }
+    .divs{
+        
+        display: flex;
+        flex-direction: row;
+    }
+header{
+    font-weight: 200;
+    line-height: 1.67;
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+header p{
+    width: 54rem;
+    text-align: center;
+    align-items: center;
+  
+}
+
+.build-karma{
+    width: 35rem;
+    
+    display: flex;
+    flex-direction: column;
     gap: 3rem;
-    grid-template-rows:repeat(4,16.75rem);
-    grid-template-columns:repeat(3,35rem);
+}
+.Calculator{
+    min-width: 35rem;
+    margin: 14rem 3rem 14rem 0;
+
+  
+
 }
 .supervisor{
-    grid-column: 1 / 2;
-    grid-row: 2 / 4;
+    min-width: 35rem;
+    margin: 14rem 0 14rem 0;
     
 }
+.Team-Builder,.karma,.supervisor,.Calculator{
+    width: 35rem; 
+}
+
 }
