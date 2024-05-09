@@ -3,29 +3,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
+   
 }
 body{
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
-    
+    font-family: "Poppins";
+ min-height: 100vh;
+ align-items: center;
+ padding:8.5rem 3.9rem 7.8rem ;
  
 }
 html{
     font-size: 62.5%;
 }
-.container{
-    padding:8.5rem 3.9rem 7.8rem ;
-}
+
 main{
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    justify-content: center;
+    gap: 3rem;
+}
+header{
+    font-weight: 200;
+    line-height: 1.67;
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+    margin-bottom: 7rem;
+    gap: 1rem;
     
 }
 header span{
-    font-weight: 200;
     height: 2.4rem;
     font-size: 3.6rem;
     letter-spacing: 0.017rem;
@@ -41,173 +51,84 @@ header h1{
 header p{
     font-size: 1.5rem;
     opacity: 0.5;
-    line-height: 1.67;
+   max-width: 54rem;
     letter-spacing: 0.01rem;
     color: #4d4f62;
     margin-top: 1.6rem;
-    padding-bottom: 7.6rem;
+    
 }
-.supervisor{
+.box{
+
     padding:2.3rem 2.8rem 2.8rem 2.8rem ;
     background-color: white;
     display: flex;
     flex-direction: column;
-    border-top: 0.4rem solid aqua;
-    border-radius: 0.8rem
+    border-radius: 0.8rem;
+
+
 }
-.supervisor h2{
+.supervisor{
+    border-top: 0.4rem  solid aqua ;
+}
+.Team-Builder{
+    
+ border-top: 0.4rem  solid #ea5454 ;
+}
+.box h2{
     font-size: 2rem;
     font-weight: 600;
     color: #4d4f62;
     
 }
-.supervisor img{
-align-self: flex-end;
-margin-top: 4.3rem;
-
-}
-.supervisor p{
-    opacity: 0.5;
-    font-size: 1.3rem;
-    line-height: 1.77;
-  letter-spacing: 0.009rem;
-  color: #4d4f62;
-}
-.Team-Builder{
-    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-top: 0.4rem  solid #ea5454 ;
-    border-radius: 0.8rem;
-}
-.Team-Builder h2{
-    font-size: 2rem;
-  font-weight: 600;
-  color: #4d4f62;
-  
-}
-.Team-Builder p{
-    opacity: 0.5;
-    font-size: 1.3rem;
-    line-height: 1.77;
-  letter-spacing: 0.009rem;
-  color: #4d4f62;
-}
-
-.Team-Builder img{
+.box img{
     align-self: flex-end;
     margin-top: 4.3rem;
     
- }
+}
+.box p{
+    opacity: 0.5;
+    font-size: 1.3rem;
+    line-height: 1.77;
+  letter-spacing: 0.009rem;
+  color: #4d4f62;
+  margin-top: 1rem;
+}
+
+
+
+
  .Karma{
-    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+   
     border-top: 0.4rem  solid #fcae4a;
-    border-radius: 0.8rem;
- }
- .Karma h2{
-    font-size: 2rem;
-  font-weight: 600;
-  color: #4d4f62;
-  
-}
-.Team-Builder p{
-    opacity: 0.5;
-    font-size: 1.3rem;
-    line-height: 1.77;
-  letter-spacing: 0.009rem;
-  color: #4d4f62;
-}
-.Karma img{
-    align-self: flex-end;
-    margin-top: 4.3rem;
     
  }
+
  .Calculator {
-    padding:2.3rem 2.8rem 2.8rem 2.8rem ;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
     border-top: 0.4rem  solid #549ef2;
-    border-radius: 0.8rem;
  }
- .Calculator h2{
-    font-size: 2rem;
-  font-weight: 600;
-  color: #4d4f62;
-  
-}
-.Calculator img{
-    align-self: flex-end;
-    margin-top: 4.3rem;
-    
- }
- .Calculator p{
-    opacity: 0.5;
-    font-size: 1.3rem;
-    line-height: 1.77;
-  letter-spacing: 0.009rem;
-  color: #4d4f62;
-}
-@media only screen and (min-width: 90rem ){
-    body{
-        display: flex;
-        padding: 8rem 16.5rem;
-        justify-content: center;
-        align-items: center;
-      
-    }
-    
-    main div{
-        
-        /* height: 25rem; */
-        gap: 3rem;
-    }
-    .divs{
-        
-        display: flex;
-        flex-direction: row;
-    }
-header{
-    font-weight: 200;
-    line-height: 1.67;
-   display: flex;
-   flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 1rem;
-}
-header p{
-    width: 54rem;
-    text-align: center;
-    align-items: center;
-  
-}
+
 
 .build-karma{
-    width: 35rem;
-    
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
-.Calculator{
-    min-width: 35rem;
-    margin: 14rem 3rem 14rem 0;
-
-  
-
-}
-.supervisor{
-    min-width: 35rem;
-    margin: 14rem 0 14rem 0;
+@media only screen and (min-width: 90rem ){
+    body{
+     
+        padding: 8rem 16.5rem;
+       
+    }
     
-}
-.Team-Builder,.karma,.supervisor,.Calculator{
-    width: 35rem; 
-}
+    main{
+        flex-direction: row;
+        align-items: center;
+    }
 
+.build-karma{
+    gap: 3rem;
+  
+}
+.box{
+    width: 35rem;
 }
